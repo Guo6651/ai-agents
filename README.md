@@ -4,6 +4,7 @@
 
 - W2 的 Course Check 在仓库根目录，操作说明见下文。
 - W3 的蒲丰投针实验与报告材料在 [`week-03/`](week-03/)，使用说明见 [`README-materials.md`](week-03/README-materials.md)。
+- 可直接运行的 W3 教师演示在 [`demos/week-03-buffon/`](demos/week-03-buffon/)，供课堂展示和本地复现，不替代学生工作目录。
 
 W3 沿用 W2 已经 clone 的仓库和已有 Git 历史，但在 `week-03/` 建立独立的 uv 项目。W2 根目录的代码、依赖与环境不构成 W3 的代码基线；W3 的实现、锁文件与 `.venv/` 都属于 `week-03/`。
 

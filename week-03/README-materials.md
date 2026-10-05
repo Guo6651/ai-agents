@@ -35,6 +35,8 @@ testpaths = ["tests"]
 只固定这两个 Python 入口和需求中列出的接口，其余内部结构可以自己选择。
 不要把 API Key 写进项目。
 
+教师的可运行演示另放在 [`../demos/week-03-buffon/`](../demos/week-03-buffon/)，可以观察或在本地复现；它不覆盖本目录，也不改变学生的实现和验收要求。
+
 ```text
 ai-agents/week-03/
 ├── EXPERIMENT.txt
