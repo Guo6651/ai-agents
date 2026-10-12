@@ -1,0 +1,19 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# LaTeX 中间文件（保留 .tex 源文件与最终 PDF）
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.xdv
+*.out
+*.synctex.gz
+
+# 凭据（不要上传包含 Key 的文件）
+.env
+.env.*
+!.env.example

@@ -1,0 +1,12 @@
+[project]
+name = "week-03"
+version = "0.1.0"
+description = "W3 蒲丰投针实验：用真实模拟估计圆周率并写入 LaTeX 报告"
+requires-python = ">=3.12,<3.13"
+dependencies = ["matplotlib>=3.9"]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
